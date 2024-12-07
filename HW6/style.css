@@ -1,0 +1,160 @@
+input {
+    margin-bottom: 15px;
+    background-color: blue;
+    color: azure;
+    padding: 5px;
+    font-size: 17px;
+}
+
+#text {
+    font-size: 20px;
+    margin-bottom: 15px;
+}
+
+h3 {
+    margin: 0;
+    padding-bottom: .3em;
+    padding-right: 20px;
+    font-size: 1.1em;
+  }
+  
+  p {
+    margin: 0;
+    padding: 0 0 .5em;
+  }
+  
+  .animal {
+    background: #edf5e1;
+    padding: 10px 20px 10px;
+    border-top: solid 2px #c4df9b;
+    position: relative;
+  }
+  
+  .remove-button {
+    position: absolute;
+    font-size: 110%;
+    top: 0;
+    color: darkred;
+    right: 10px;
+    display: block;
+    width: 24px;
+    height: 24px;
+    border: none;
+    background: transparent;
+    cursor: pointer;
+  }
+
+.Swiper {
+    margin: 0;
+    padding: 10px;
+    font-family: Arial, sans-serif;
+    background: #f7f7f7;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+}
+
+
+/* Стили контейнера слайдера */
+.carousel {
+    position: relative;
+    width: 550px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 15px;
+    background: #eee;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    
+}
+
+.swiper {
+    width: 550px;
+    overflow: hidden;
+}
+
+.swiper-slide {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.swiper-slide img {
+    width: 130px;
+    height: 130px;
+    display: block;
+    border-radius: 10px;
+    object-fit: cover;
+   
+}
+
+/* Стили стрелок */
+.swiper-button-next,
+.swiper-button-prev {
+    position: absolute;
+    top: 60%;
+    transform: translateY(-50%);
+    width: 30px;
+    height: 30px;
+    color: #444;
+    border-radius: 50%;
+    font-size: 18px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.swiper-button-prev {
+    left: 0%;
+}
+.swiper-button-next {
+    right: 0%;
+}
+
+
+.accordion {
+    width: 300px;
+    background: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+}
+
+/* Заголовок аккордеона */
+.accordion-item {
+    border-bottom: 1px solid #ddd;
+}
+
+.accordion-title {
+    padding: 15px;
+    background: #007aff;
+    color: #fff;
+    font-size: 18px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background 0.3s;
+}
+
+.accordion-title:hover {
+    background: #005bb5;
+}
+
+/* Контент аккордеона */
+.accordion-content {
+    display: none;
+    padding: 10px 15px;
+    font-size: 16px;
+    background: #f9f9f9;
+    color: #333;
+}
+
+/* Активный элемент */
+.accordion-content.active {
+    display: block;
+}
+
+.list-item {
+    margin: 0;
+    padding-left: 20px;
+    list-style: none;
+}
